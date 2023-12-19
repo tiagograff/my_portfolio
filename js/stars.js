@@ -1,4 +1,4 @@
-var numberSpans = 60;
+var numberSpans = 100;
 
 // local onde o span será gerado
 var container = document.getElementsByClassName("containerIndex-stars")[0];

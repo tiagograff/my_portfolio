@@ -1,6 +1,6 @@
 "use strict";
 
-var numberSpans = 60; // local onde o span será gerado
+var numberSpans = 100; // local onde o span será gerado
 
 var container = document.getElementsByClassName("containerIndex-stars")[0]; // loop parar gerar a quantidade de spans
 

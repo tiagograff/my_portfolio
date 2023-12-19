@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 .bodyIndex {
   min-height: 100vh;
-  background: linear-gradient(180deg, #1b1b1b 0%, midnightblue 100%); }
+  background: linear-gradient(180deg, #1b1b1b 0%, #11114b 100%); }
 
 .containerIndex {
   position: relative;
@@ -12,16 +12,13 @@
     position: absolute;
     display: flex; }
     .containerIndex-stars-star {
-      width: 30px;
-      height: 30px;
-      background: #e5ff00;
+      width: 15px;
+      height: 15px;
+      background: #fafde2;
       margin: 0 4px;
       border-radius: 50%;
-      box-shadow: 0 0 0 10px #e5ff0044, 0 0 25px #e5ff00, 0 0 50px #e5ff00;
+      box-shadow: 0 0 0 10px #fdffdf82, 0 0 25px #fafde2, 0 0 50px #fafde2;
       animation: anim calc( 120s / var(--i) ) linear infinite; }
-      .containerIndex-stars-star:nth-of-type(2n) {
-        background: #c1d413;
-        box-shadow: 0 0 0 10px #e5ff0044, 0 0 25px #e5ff00, 0 0 50px #e5ff00; }
 
 .profile {
   position: absolute;
@@ -30,7 +27,7 @@
   transform: translate(-50%, -50%);
   text-align: center; }
   .profile-img {
-    max-width: 25%;
+    max-width: 200px;
     height: auto;
     border: 7px solid #F7F7F7;
     padding: 10px;
@@ -38,7 +35,11 @@
     transition: 2s; }
     .profile-img:hover {
       filter: grayscale(100%);
-      transform: scale(1.25, 1.25); }
+      transform: scale(1.1, 1.1); }
+@media(max-width: 500px) {
+  .profile-img {
+    max-width: 200px;
+    border: 5px solid #F7F7F7; } }
   .profile-button {
     position: relative;
     top: 50%;
@@ -48,10 +49,16 @@
     border: solid 2px #F7F7F7;
     border-radius: 25px;
     padding: 15px;
-    width: 25%; }
+    width: 300px; }
     .profile-button:hover {
       border: #212121;
       background: #F7F7F7; }
+@media(max-width: 500px) {
+  .profile-button {
+    width: 100px; } }
+@media(max-width: 1000px) {
+  .profile-button {
+    width: 250px; } }
     .profile-button-link {
       text-decoration: none;
       color: #F7F7F7;

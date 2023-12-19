@@ -1,4 +1,6 @@
 @import 'variables'
+@import 'mixins'
+
 .bodyIndex
     min-height: 100vh
     background: $backgroundIndex
@@ -12,16 +14,16 @@
         position: absolute
         display: flex
         &-star
-            width: 30px
-            height: 30px
-            background: $first-star
+            width: 15px
+            height: 15px
+            background: $star
             margin: 0 4px
             border-radius: 50%
-            box-shadow: 0 0 0 10px $second-star, 0 0 25px $first-star, 0 0 50px $first-star
+            box-shadow: 0 0 0 10px $shadow-star, 0 0 25px $star, 0 0 50px $star
             animation: anim calc( 120s / var(--i) ) linear infinite
-            &:nth-of-type(2n)
-                background: #c1d413
-                box-shadow: 0 0 0 10px $second-star, 0 0 25px $first-star, 0 0 50px $first-star
+            @mixin screen500()
+                width: 2.5px
+                height: 2.5px
 
 .profile
     position: absolute
@@ -30,7 +32,7 @@
     transform: translate(-50%, -50%)
     text-align: center
     &-img
-        max-width: 25%
+        max-width: 200px
         height: auto
         border: 7px solid $white-color
         padding: 10px
@@ -38,7 +40,11 @@
         transition: 2s
         &:hover
             filter: grayscale(100%)
-            transform: scale(1.25,1.25)
+            transform: scale(1.1,1.1)
+        @include screen500
+            max-width: 200px
+            border: 5px solid $white-color
+
     &-button
         position: relative
         top: 50%
@@ -48,10 +54,14 @@
         border: solid 2px $white-color
         border-radius: 25px
         padding: 15px
-        width: 25%
+        width: 300px
         &:hover
             border: $black-color
             background: $white-color
+        @include screen500
+            width: 100px
+        @include screen1000
+            width: 250px
         &-link
             text-decoration: none
             color: $white-color
