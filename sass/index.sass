@@ -1,0 +1,69 @@
+@import 'variables'
+.bodyIndex
+    min-height: 100vh
+    background: $backgroundIndex
+
+.containerIndex
+    position: relative
+    width: 100%
+    height: 100vh
+    overflow: hidden
+    &-stars
+        position: absolute
+        display: flex
+        &-star
+            width: 30px
+            height: 30px
+            background: $first-star
+            margin: 0 4px
+            border-radius: 50%
+            box-shadow: 0 0 0 10px $second-star, 0 0 25px $first-star, 0 0 50px $first-star
+            animation: anim calc( 120s / var(--i) ) linear infinite
+            &:nth-of-type(2n)
+                background: #c1d413
+                box-shadow: 0 0 0 10px $second-star, 0 0 25px $first-star, 0 0 50px $first-star
+
+.profile
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    text-align: center
+    &-img
+        max-width: 25%
+        height: auto
+        border: 7px solid $white-color
+        padding: 10px
+        border-radius: 50%
+        transition: 2s
+        &:hover
+            filter: grayscale(100%)
+            transform: scale(1.25,1.25)
+    &-button
+        position: relative
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        margin-top: 100px
+        border: solid 2px $white-color
+        border-radius: 25px
+        padding: 15px
+        width: 25%
+        &:hover
+            border: $black-color
+            background: $white-color
+        &-link
+            text-decoration: none
+            color: $white-color
+            font-family: $main-font
+            font-size: 2rem
+            font-weight: 400
+            &:hover
+                color: $black-color
+                font-weight: 700
+
+@keyframes anim
+    0%
+        transform: translateY(100vh) scale(0)
+    100%
+        transform: translateY(-10vh) scale(1)

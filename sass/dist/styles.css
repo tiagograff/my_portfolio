@@ -1,0 +1,13 @@
+.containerIndex {
+  width: 350px;
+  height: 150px;
+  background: linear-gradient(0, #120c56, #000000);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
