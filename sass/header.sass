@@ -1,0 +1,33 @@
+@import 'mixins'
+
+.header
+    display: flex
+    align-items: center
+    justify-content: space-between
+    &-backArrow
+        &-link
+            &-image
+                width: 20px
+                margin: 20px
+    &-nav
+        &-hamburguer
+            display: none
+            @include screen863()
+                display: block
+                cursor: pointer
+        &-list
+            display: flex
+            flex-wrap: wrap
+            justify-content: flex-end
+            align-items: center
+            flex-grow: 1
+            @include screen863()
+                display: none
+            &-item
+                margin: 0 20px
+                &-link
+
+.header-nav-list.show
+    display: flex
+    flex-direction: column
+    justify-content: flex-start

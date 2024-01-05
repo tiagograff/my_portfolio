@@ -36,7 +36,7 @@
     .profile-img:hover {
       filter: grayscale(100%);
       transform: scale(1.1, 1.1); }
-@media(max-width: 500px) {
+@media(max-width: 863px) {
   .profile-img {
     max-width: 200px;
     border: 5px solid #F7F7F7; } }
@@ -53,7 +53,7 @@
     .profile-button:hover {
       border: #212121;
       background: #F7F7F7; }
-@media(max-width: 500px) {
+@media(max-width: 863px) {
   .profile-button {
     width: 100px; } }
 @media(max-width: 1000px) {
@@ -74,6 +74,36 @@
     transform: translateY(100vh) scale(0); }
   100% {
     transform: translateY(-10vh) scale(1); } }
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .header-backArrow-link-image {
+    width: 20px;
+    margin: 20px; }
+  .header-nav-hamburguer {
+    display: none; }
+@media(max-width: 863px) {
+  .header-nav-hamburguer {
+    display: block;
+    cursor: pointer; } }
+  .header-nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1; }
+@media(max-width: 863px) {
+  .header-nav-list {
+    display: none; } }
+    .header-nav-list-item {
+      margin: 0 20px; }
+
+.header-nav-list.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+
 * {
   margin: 0;
   padding: 0;

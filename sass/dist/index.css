@@ -43,7 +43,7 @@
   filter: grayscale(100%);
   transform: scale(1.1, 1.1);
 }
-@media (max-width: 500px) {
+@media (max-width: 863px) {
   .profile-img {
     max-width: 200px;
     border: 5px solid #F7F7F7;
@@ -64,7 +64,7 @@
   border: #212121;
   background: #F7F7F7;
 }
-@media (max-width: 500px) {
+@media (max-width: 863px) {
   .profile-button {
     width: 100px;
   }

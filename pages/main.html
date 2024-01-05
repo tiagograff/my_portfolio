@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,8 +10,19 @@
   <body>
     <div class="container">
       <header class="header">
+        <div class="header-backArrow">
+          <a class="header-backArrow-link" href="../index.html"
+            ><img
+              class="header-backArrow-link-image"
+              src="../img/left-arrow.png"
+              alt="left arrow"
+          /></a>
+        </div>
         <nav class="header-nav">
-          <ul class="header-nav-list">
+          <div class="header-nav-hamburguer" id="menuHamburguer">
+            <img class="header-nav-hamburguer" src="" alt="menu-hamburguer" />
+          </div>
+          <ul class="header-nav-list" id="menuList">
             <li class="header-nav-list-item">
               <a class="header-nav-list-item-link" href="#welcome"
                 >bem-vindo(a)</a
@@ -220,12 +231,18 @@
           página feital em html, sass/css e javascript por tiago pinz graffunder
         </p>
         <p class="footer-text">
-          images by<a href="https://www.freepik.com/search">
+          images by<a href="https://www.freepik.com/">
             freepik: www.freepik.com</a
+          >
+        </p>
+        <p class="footer-text">
+          icons by<a href="https://www.flaticon.com/">
+            freepik: www.flaticon.com</a
           >
         </p>
       </footer>
     </div>
+    <script src="../js/menu.js"></script>
     <script src="../js/cards.js"></script>
   </body>
 </html>

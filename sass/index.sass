@@ -21,7 +21,7 @@
             border-radius: 50%
             box-shadow: 0 0 0 10px $shadow-star, 0 0 25px $star, 0 0 50px $star
             animation: anim calc( 120s / var(--i) ) linear infinite
-            @mixin screen500()
+            @mixin screen863()
                 width: 2.5px
                 height: 2.5px
 
@@ -41,7 +41,7 @@
         &:hover
             filter: grayscale(100%)
             transform: scale(1.1,1.1)
-        @include screen500
+        @include screen863
             max-width: 200px
             border: 5px solid $white-color
 
@@ -58,7 +58,7 @@
         &:hover
             border: $black-color
             background: $white-color
-        @include screen500
+        @include screen863
             width: 100px
         @include screen1000
             width: 250px
