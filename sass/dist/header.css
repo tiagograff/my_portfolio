@@ -1,14 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.header-backArrow {
+  margin-left: 20px;
+}
 .header-backArrow-link-image {
   width: 20px;
-  margin: 20px;
+  margin: 20px 0;
+  filter: invert(90%);
+}
+.header-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
 }
 .header-nav-hamburguer {
   display: none;
+  max-width: 30px;
+  margin: 0 20px 0 0;
 }
 @media (max-width: 863px) {
   .header-nav-hamburguer {
@@ -31,8 +45,22 @@
 .header-nav-list-item {
   margin: 0 20px;
 }
+@media (max-width: 863px) {
+  .header-nav-list-item {
+    padding: 5px;
+  }
+  .header-nav-list-item:hover {
+    color: #818FB4;
+  }
+}
+
 .header-nav-list.show {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin: 0 20px 20px 0;
+}
+
+.header-nav-list-item-link.active {
+  padding: 20px 0 0 0;
 }

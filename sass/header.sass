@@ -1,17 +1,27 @@
 @import 'mixins'
-
+@import 'variables'
 .header
     display: flex
     align-items: center
     justify-content: space-between
     &-backArrow
+        margin-left: 20px
         &-link
             &-image
                 width: 20px
-                margin: 20px
+                margin: 20px 0
+                filter: invert(90%)
     &-nav
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        text-align: start
+
         &-hamburguer
             display: none
+            max-width: 30px
+            margin: 0 20px 0 0
             @include screen863()
                 display: block
                 cursor: pointer
@@ -26,8 +36,16 @@
             &-item
                 margin: 0 20px
                 &-link
-
+                @include screen863()
+                    padding: 5px
+                    &:hover
+                        color: $tertiary-color
+                    
 .header-nav-list.show
     display: flex
     flex-direction: column
     justify-content: flex-start
+    margin: 0 20px 20px 0
+
+.header-nav-list-item-link.active
+    padding: 20px 0 0 0

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .bodyIndex {
   min-height: 100vh;
   background: linear-gradient(180deg, #1b1b1b 0%, #11114b 100%);
@@ -83,7 +83,6 @@
 }
 .profile-button-link:hover {
   color: #212121;
-  font-weight: 700;
 }
 
 @keyframes anim {
