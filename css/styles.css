@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .bodyIndex {
   min-height: 100vh;
   background: linear-gradient(180deg, #1b1b1b 0%, #11114b 100%); }
@@ -109,11 +110,16 @@
     display: none; } }
       .header-nav-list-item {
         margin: 0 20px; }
+        .header-nav-list-item-link:hover {
+          color: #818FB4;
+          padding-bottom: 5px;
+          border-bottom: solid 1px #818FB4; }
 @media(max-width: 863px) {
   .header-nav-list-item {
     padding: 5px; }
     .header-nav-list-item:hover {
-      color: #818FB4; } }
+      color: #818FB4;
+      border-bottom: solid 1px #818FB4; } }
 .header-nav-list.show {
   display: flex;
   flex-direction: column;
@@ -128,6 +134,22 @@
 
 .main-certificates-card-link-img {
   max-width: 125px; }
+
+.main-welcome-title {
+  margin: 20px auto 0 auto;
+  font-weight: 200;
+  text-align: center;
+  font-size: 3rem; }
+.main-welcome-subTitle {
+  text-align: center;
+  font-weight: 200;
+  margin-bottom: 20px; }
+.main-welcome-hr {
+  width: 50%;
+  margin: 0 auto 0 auto; }
+.main-welcome-paragraph {
+  margin: 20px;
+  text-align: center; }
 
 * {
   margin: 0;

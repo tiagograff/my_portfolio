@@ -36,11 +36,17 @@
             &-item
                 margin: 0 20px
                 &-link
+
+                    &:hover
+                        color: $tertiary-color
+                        padding-bottom: 5px
+                        border-bottom: solid 1px $tertiary-color
                 @include screen863()
                     padding: 5px
                     &:hover
                         color: $tertiary-color
-                    
+                        border-bottom: solid 1px $tertiary-color
+
 .header-nav-list.show
     display: flex
     flex-direction: column
