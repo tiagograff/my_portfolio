@@ -33,16 +33,17 @@
             flex-grow: 1
             @include screen863()
                 display: none
+                border-left: solid 1px $tertiary-color
             &-item
                 margin: 0 20px
                 &-link
-
                     &:hover
                         color: $tertiary-color
                         padding-bottom: 5px
-                        border-bottom: solid 1px $tertiary-color
+
                 @include screen863()
                     padding: 5px
+                    border-left: 1 solid $tertiary-color
                     &:hover
                         color: $tertiary-color
                         border-bottom: solid 1px $tertiary-color

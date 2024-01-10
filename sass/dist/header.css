@@ -40,6 +40,7 @@
 @media (max-width: 863px) {
   .header-nav-list {
     display: none;
+    border-left: solid 1px #818FB4;
   }
 }
 .header-nav-list-item {
@@ -48,11 +49,11 @@
 .header-nav-list-item-link:hover {
   color: #818FB4;
   padding-bottom: 5px;
-  border-bottom: solid 1px #818FB4;
 }
 @media (max-width: 863px) {
   .header-nav-list-item {
     padding: 5px;
+    border-left: 1 solid #818FB4;
   }
   .header-nav-list-item:hover {
     color: #818FB4;

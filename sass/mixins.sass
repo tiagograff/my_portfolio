@@ -5,3 +5,10 @@
 @mixin screen1000
     @media(max-width: 1000px)
         @content
+
+@mixin subTitle
+    font-size: 2rem
+    font-weight: 200
+    margin: 0 0 20px 20px
+    &::before
+        content: "• "
