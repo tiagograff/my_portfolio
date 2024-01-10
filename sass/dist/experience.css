@@ -21,7 +21,12 @@
   }
 }
 .main-experience-box1-paragraph {
-  padding-bottom: 20px;
+  padding-right: 20px;
+}
+@media (max-width: 863px) {
+  .main-experience-box1-paragraph {
+    padding-bottom: 20px;
+  }
 }
 .main-experience-box2-title {
   font-size: 2rem;
