@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .bodyIndex {
   min-height: 100vh;
   background: linear-gradient(180deg, #1b1b1b 0%, #11114b 100%); }
@@ -201,6 +202,42 @@
   .main-experience-box2-line3-image {
     margin: 0 0 20px 20px;
     width: 50px; }
+
+.main-certificates-subTitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 0 0 20px 20px; }
+  .main-certificates-subTitle::before {
+    content: "• "; }
+.main-certificates-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+  .main-certificates-cards-card {
+    margin: 20px;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 350px;
+    text-align: center;
+    border: 2px solid #F5E8C7;
+    border-radius: 25px;
+    padding: 20px; }
+    .main-certificates-cards-card:hover {
+      border: 2px solid #a5b8ee; }
+    .main-certificates-cards-card-link-img {
+      max-width: 125px;
+      filter: invert(90%);
+      padding: 20px 0; }
+      .main-certificates-cards-card-link-img:hover {
+        filter: invert(10%); }
+    .main-certificates-cards-card-link-infos-paragraphSchool {
+      font-size: 1.75rem;
+      margin-bottom: 20px;
+      color: #a5b8ee;
+      font-weight: 500; }
+    .main-certificates-cards-card-link-infos-paragraphCourse {
+      font-weight: 200; }
 
 * {
   margin: 0;

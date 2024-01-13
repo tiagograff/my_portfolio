@@ -79,31 +79,31 @@ var certificateData = [{
 }]; // função que gera cards automáticamente
 
 function generateCards(data) {
-  var container = document.getElementById("certificates"); // para cada item crie um elemento article com o class name...
+  var container = document.getElementById("certificatesCards"); // para cada item crie um elemento article com o class name...
 
   data.forEach(function (item) {
     var article = document.createElement("article");
-    article.className = "main-certificates-card"; // para cada item crie um elemento link com o class name...
+    article.className = "main-certificates-cards-card"; // para cada item crie um elemento link com o class name...
 
     var link = document.createElement("a");
-    link.className = "main-certificates-card-link";
+    link.className = "main-certificates-cards-card-link";
     link.href = item.linkCertificate; // para cada item crie um elemento img com o class name...
 
     var img = document.createElement("img");
-    img.className = "main-certificates-card-link-img";
+    img.className = "main-certificates-cards-card-link-img";
     img.src = item.imagem;
     img.alt = ""; // adcionar link a img
 
     link.appendChild(img); // para cada item crie um elemento div infos com o class name...
 
     var infos = document.createElement("div");
-    infos.className = "main-certificates-card-link-infos"; // para cada item crie um elemento p com o class name...
+    infos.className = "main-certificates-cards-card-link-infos"; // para cada item crie um elemento p com o class name...
 
     var paragraph1 = document.createElement("p");
-    paragraph1.className = "main-certificates-card-link-infos-paragraph";
+    paragraph1.className = "main-certificates-cards-card-link-infos-paragraphSchool";
     paragraph1.textContent = item.escola;
     var paragraph2 = document.createElement("p");
-    paragraph2.className = "main-certificates-card-link-infos-paragraph";
+    paragraph2.className = "main-certificates-cards-card-link-infos-paragraphCourse";
     paragraph2.textContent = item.curso; // adcionar infos ao paragraph
 
     infos.appendChild(paragraph1);

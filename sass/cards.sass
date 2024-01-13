@@ -1,0 +1,38 @@
+@import 'mixins'
+@import 'variables'
+
+.main
+    &-certificates
+        &-subTitle
+            @include subTitle
+        &-cards
+            display: flex
+            flex-wrap: wrap
+            justify-content: center
+            align-items: center
+            &-card
+                margin: 20px
+                min-width: 250px
+                max-width: 250px
+                min-height: 350px
+                text-align: center
+                border: 2px solid $quaternary-color
+                border-radius: 25px
+                padding: 20px
+                &:hover
+                    border: 2px solid $quinternary-color
+                &-link
+                    &-img
+                        max-width: 125px
+                        filter: invert(90%)
+                        padding: 20px 0
+                        &:hover
+                            filter: invert(10%)
+                    &-infos
+                        &-paragraphSchool
+                            font-size: 1.75rem
+                            margin-bottom: 20px
+                            color: $quinternary-color
+                            font-weight: 500
+                        &-paragraphCourse
+                            font-weight: 200
