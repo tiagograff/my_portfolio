@@ -1,0 +1,13 @@
+@import 'variables'
+@import 'mixins'
+
+.main
+    &-articles
+        &-subTitle
+            @include subTitle
+        &-list
+            display: flex
+            justify-content: center
+            align-items: center
+            &-item
+                @include list

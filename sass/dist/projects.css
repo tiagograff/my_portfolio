@@ -1,0 +1,16 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.main-projects-subTitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 0 0 40px 20px;
+}
+.main-projects-subTitle::before {
+  content: "• ";
+}
+.main-projects-listA-item-title {
+  font-weight: 200;
+}
+.main-projects-listB-item-title {
+  font-weight: 200;
+}

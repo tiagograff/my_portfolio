@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.main-graduation-subTitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 0 0 40px 20px;
+}
+.main-graduation-subTitle::before {
+  content: "• ";
+}
+.main-graduation-list {
+  margin: auto auto 40px 20px;
+  justify-content: center;
+  width: 50%;
+  height: 25px;
+  border: 2px solid #F5E8C7;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.main-graduation-list:hover {
+  background-color: #212121;
+}
+.main-graduation-list-item {
+  height: 100%;
+  border-radius: 20px;
+  background-color: #a5b8ee;
+}
+.main-graduation-list-item:hover {
+  background-color: #F7F7F7;
+}

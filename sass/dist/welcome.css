@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .main-welcome-title {
-  margin: 20px auto 0 auto;
+  margin: 40px auto 0 auto;
   font-weight: 200;
   text-align: center;
   font-size: 3rem;
@@ -8,13 +8,13 @@
 .main-welcome-subTitle {
   text-align: center;
   font-weight: 200;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .main-welcome-hr {
   width: 50%;
   margin: 0 auto 0 auto;
 }
 .main-welcome-paragraph {
-  margin: 20px;
+  margin: 40px;
   text-align: center;
 }

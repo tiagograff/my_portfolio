@@ -1,0 +1,23 @@
+@import 'mixins'
+@import 'variables'
+
+.main
+    &-graduation
+        &-subTitle
+            @include subTitle
+        &-list
+            margin: auto auto 40px 20px
+            justify-content: center
+            width: 50%
+            height: 25px
+            border: 2px solid $quaternary-color
+            border-radius: 20px
+            cursor: pointer
+            &:hover
+                background-color: $black-color
+            &-item
+                height: 100%
+                border-radius: 20px
+                background-color: $quinternary-color
+                &:hover
+                    background-color: $white-color

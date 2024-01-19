@@ -4,6 +4,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .bodyIndex {
   min-height: 100vh;
   background: linear-gradient(180deg, #1b1b1b 0%, #11114b 100%); }
@@ -140,25 +144,25 @@
   max-width: 125px; }
 
 .main-welcome-title {
-  margin: 20px auto 0 auto;
+  margin: 40px auto 0 auto;
   font-weight: 200;
   text-align: center;
   font-size: 3rem; }
 .main-welcome-subTitle {
   text-align: center;
   font-weight: 200;
-  margin-bottom: 20px; }
+  margin-bottom: 40px; }
 .main-welcome-hr {
   width: 50%;
   margin: 0 auto 0 auto; }
 .main-welcome-paragraph {
-  margin: 20px;
+  margin: 40px;
   text-align: center; }
 
 .main-experience-subTitle {
   font-size: 2rem;
   font-weight: 200;
-  margin: 0 0 20px 20px; }
+  margin: 0 0 40px 20px; }
   .main-experience-subTitle::before {
     content: "• "; }
 .main-experience-box1 {
@@ -178,7 +182,7 @@
 .main-experience-box2-title {
   font-size: 2rem;
   font-weight: 200;
-  margin: 0 0 20px 20px; }
+  margin: 0 0 40px 20px; }
   .main-experience-box2-title::before {
     content: "• "; }
 .main-experience-box2-line1 {
@@ -206,7 +210,7 @@
 .main-certificates-subTitle {
   font-size: 2rem;
   font-weight: 200;
-  margin: 0 0 20px 20px; }
+  margin: 0 0 40px 20px; }
   .main-certificates-subTitle::before {
     content: "• "; }
 .main-certificates-cards {
@@ -215,7 +219,7 @@
   justify-content: center;
   align-items: center; }
   .main-certificates-cards-card {
-    margin: 20px;
+    margin: 40px;
     min-width: 250px;
     max-width: 250px;
     min-height: 350px;
@@ -238,6 +242,76 @@
       font-weight: 500; }
     .main-certificates-cards-card-link-infos-paragraphCourse {
       font-weight: 200; }
+
+.main-articles-subTitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 0 0 40px 20px; }
+  .main-articles-subTitle::before {
+    content: "• "; }
+.main-articles-list {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .main-articles-list-item {
+    margin-bottom: 20px;
+    border: 2px solid #F5E8C7;
+    padding: 10px 15px;
+    border-radius: 50px; }
+    .main-articles-list-item:hover {
+      background-color: #818FB4; }
+      .main-articles-list-item:hover-link {
+        color: #F7F7F7; }
+
+.main-projects-subTitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 0 0 40px 20px; }
+  .main-projects-subTitle::before {
+    content: "• "; }
+.main-projects-listA-item {
+  margin: auto auto 40px 20px; }
+  .main-projects-listA-item-title {
+    font-size: 1.25rem;
+    font-weight: 200;
+    color: #F5E8C7; }
+    .main-projects-listA-item-title-link {
+      cursor: pointer; }
+    .main-projects-listA-item-title::before {
+      content: "✭ "; }
+.main-projects-listB-item {
+  margin: auto auto 40px 20px; }
+  .main-projects-listB-item-title {
+    font-size: 1.25rem;
+    font-weight: 200;
+    color: #F5E8C7; }
+    .main-projects-listB-item-title-link {
+      cursor: pointer; }
+    .main-projects-listB-item-title::before {
+      content: "✭ "; }
+
+.main-graduation-subTitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 0 0 40px 20px; }
+  .main-graduation-subTitle::before {
+    content: "• "; }
+.main-graduation-list {
+  margin: auto auto 40px 20px;
+  justify-content: center;
+  width: 50%;
+  height: 25px;
+  border: 2px solid #F5E8C7;
+  border-radius: 20px;
+  cursor: pointer; }
+  .main-graduation-list:hover {
+    background-color: #212121; }
+  .main-graduation-list-item {
+    height: 100%;
+    border-radius: 20px;
+    background-color: #a5b8ee; }
+    .main-graduation-list-item:hover {
+      background-color: #F7F7F7; }
 
 * {
   margin: 0;
