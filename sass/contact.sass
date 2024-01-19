@@ -1,0 +1,14 @@
+@import 'mixins'
+@import 'variables'
+
+.main
+    &-contact
+        &-subTitle
+            @include subTitle
+        &-list
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+            &-item
+                @include list

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.main-contact-subTitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 0 0 40px 20px;
+}
+.main-contact-subTitle::before {
+  content: "• ";
+}
+.main-contact-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-contact-list-item {
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 50%;
+  text-align: center;
+  border: 2px solid #F5E8C7;
+  padding: 10px 15px;
+  border-radius: 50px;
+}
+.main-contact-list-item:hover {
+  background-color: #818FB4;
+}
+.main-contact-list-item:hover-link {
+  color: #F7F7F7;
+}
