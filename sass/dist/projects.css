@@ -1,6 +1,11 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
+.main-projects {
+  height: 25vh;
+}
 .main-projects-subTitle {
+  font-family: "EB Garamond", serif;
   font-size: 2rem;
   font-weight: 200;
   margin: 0 0 40px 20px;
@@ -18,14 +23,28 @@
   content: "✭ ";
 }
 .main-projects-listA {
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 20px;
+}
+@media (max-width: 863px) {
+  .main-projects-listA {
+    flex-direction: column;
+  }
 }
 .main-projects-listA-item-link {
   margin-left: 20px;
   font-weight: 300;
 }
 .main-projects-listB {
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 20px;
+}
+@media (max-width: 863px) {
+  .main-projects-listB {
+    flex-direction: column;
+  }
 }
 .main-projects-listB-item-link {
   margin-left: 20px;

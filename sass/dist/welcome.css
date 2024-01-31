@@ -1,9 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
+.main {
+  padding: 0 50px;
+}
+.main-welcome {
+  height: 100vh;
+  width: calc(100vh - auto);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .main-welcome-title {
+  font-family: "EB Garamond", serif;
   padding-top: 40px;
   font-weight: 200;
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
+}
+@media (max-width: 863px) {
+  .main-welcome-title {
+    font-size: 3rem;
+  }
 }
 .main-welcome-subTitle {
   text-align: center;

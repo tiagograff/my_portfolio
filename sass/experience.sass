@@ -6,9 +6,9 @@
         &-subTitle
             @include subTitle
         &-box1
-            display: flex
-            justify-content: center
-            align-items: center
+            // display: flex
+            // justify-content: center
+            // align-items: center
             margin: 0 20px 20px 20px
             @include screen863()
                 display: flex
@@ -19,6 +19,13 @@
                     padding-bottom: 20px
 
         &-box2
+            margin: 50px 0
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: column
+            @include screen863
+                align-items: flex-start
             &-title
                 @include subTitle
             &-line1

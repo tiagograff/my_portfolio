@@ -2,12 +2,25 @@
 @import 'variables'
 
 .main
+    @include screen1000
+    padding: 0 50px 
     &-welcome
+        height: 100vh
+        width: calc(100vh - auto)
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
         &-title
+            font-family: $title-font
             padding-top: $spacing
             font-weight: 200
             text-align: center
-            font-size: 3rem
+            font-size: 4rem
+            @include screen863
+                font-size: 3rem
+            
         &-subTitle
             text-align: center
             font-weight: 200

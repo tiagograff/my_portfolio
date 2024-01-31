@@ -1,14 +1,24 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
 .bodyIndex {
   min-height: 100vh;
   background: linear-gradient(180deg, #1b1b1b 0%, #11114b 100%); }
@@ -145,32 +155,44 @@
 .main-certificates-card-link-img {
   max-width: 125px; }
 
-.main-welcome-title {
-  padding-top: 40px;
-  font-weight: 200;
-  text-align: center;
-  font-size: 3rem; }
-.main-welcome-subTitle {
-  text-align: center;
-  font-weight: 200;
-  margin-bottom: 40px; }
-.main-welcome-hr {
-  width: 50%;
-  margin: 0 auto 0 auto; }
-.main-welcome-paragraph {
-  margin: 40px;
-  text-align: center; }
+.main {
+  padding: 0 50px; }
+@media(max-width: 1000px) {}
+  .main-welcome {
+    height: 100vh;
+    width: calc(100vh - auto);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .main-welcome-title {
+      font-family: "EB Garamond", serif;
+      padding-top: 40px;
+      font-weight: 200;
+      text-align: center;
+      font-size: 4rem; }
+@media(max-width: 863px) {
+  .main-welcome-title {
+    font-size: 3rem; } }
+    .main-welcome-subTitle {
+      text-align: center;
+      font-weight: 200;
+      margin-bottom: 40px; }
+    .main-welcome-hr {
+      width: 50%;
+      margin: 0 auto 0 auto; }
+    .main-welcome-paragraph {
+      margin: 40px;
+      text-align: center; }
 
 .main-experience-subTitle {
+  font-family: "EB Garamond", serif;
   font-size: 2rem;
   font-weight: 200;
   margin: 0 0 40px 20px; }
   .main-experience-subTitle::before {
     content: "• "; }
 .main-experience-box1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 20px 20px 20px; }
 @media(max-width: 863px) {
   .main-experience-box1 {
@@ -181,35 +203,46 @@
 @media(max-width: 863px) {
   .main-experience-box1-paragraph {
     padding-bottom: 20px; } }
-.main-experience-box2-title {
-  font-size: 2rem;
-  font-weight: 200;
-  margin: 0 0 40px 20px; }
-  .main-experience-box2-title::before {
-    content: "• "; }
-.main-experience-box2-line1 {
-  margin-left: 20px;
+.main-experience-box2 {
+  margin: 50px 0;
   display: flex;
-  flex-wrap: wrap; }
-  .main-experience-box2-line1-image {
-    margin: 0 0 20px 20px;
-    width: 50px; }
-.main-experience-box2-line2 {
-  margin-left: 20px;
-  display: flex;
-  flex-wrap: wrap; }
-  .main-experience-box2-line2-image {
-    margin: 0 0 20px 20px;
-    width: 50px; }
-.main-experience-box2-line3 {
-  margin-left: 20px;
-  display: flex;
-  flex-wrap: wrap; }
-  .main-experience-box2-line3-image {
-    margin: 0 0 20px 20px;
-    width: 50px; }
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+@media(max-width: 863px) {
+  .main-experience-box2 {
+    align-items: flex-start; } }
+  .main-experience-box2-title {
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0 0 40px 20px; }
+    .main-experience-box2-title::before {
+      content: "• "; }
+  .main-experience-box2-line1 {
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap; }
+    .main-experience-box2-line1-image {
+      margin: 0 0 20px 20px;
+      width: 50px; }
+  .main-experience-box2-line2 {
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap; }
+    .main-experience-box2-line2-image {
+      margin: 0 0 20px 20px;
+      width: 50px; }
+  .main-experience-box2-line3 {
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap; }
+    .main-experience-box2-line3-image {
+      margin: 0 0 20px 20px;
+      width: 50px; }
 
 .main-certificates-subTitle {
+  font-family: "EB Garamond", serif;
   font-size: 2rem;
   font-weight: 200;
   margin: 0 0 40px 20px; }
@@ -219,7 +252,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 50px; }
   .main-certificates-cards-card {
     margin: 40px;
     min-width: 250px;
@@ -245,99 +279,121 @@
     .main-certificates-cards-card-link-infos-paragraphCourse {
       font-weight: 200; }
 
-.main-articles-subTitle {
-  font-size: 2rem;
-  font-weight: 200;
-  margin: 0 0 40px 20px; }
-  .main-articles-subTitle::before {
-    content: "• "; }
-.main-articles-list {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  .main-articles-list-item {
-    flex-direction: column;
-    margin-bottom: 20px;
+.main-articles {
+  margin: 50px 0; }
+  .main-articles-subTitle {
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0 0 40px 20px; }
+    .main-articles-subTitle::before {
+      content: "• "; }
+  .main-articles-list {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .main-articles-list-item {
+      flex-direction: column;
+      margin-bottom: 20px;
+      width: 50%;
+      text-align: center;
+      border: 2px solid #F5E8C7;
+      padding: 10px 15px;
+      border-radius: 50px; }
+      .main-articles-list-item:hover {
+        background-color: #818FB4; }
+        .main-articles-list-item:hover-link {
+          color: #F7F7F7; }
+
+.main-projects {
+  height: 25vh; }
+  .main-projects-subTitle {
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0 0 40px 20px; }
+    .main-projects-subTitle::before {
+      content: "• "; }
+  .main-projects-listTitle {
+    margin: 0 0 10px 40px;
+    font-size: 1.25rem;
+    font-weight: 200;
+    color: #F5E8C7; }
+    .main-projects-listTitle::before {
+      content: "✭ "; }
+  .main-projects-listA {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px; }
+@media(max-width: 863px) {
+  .main-projects-listA {
+    flex-direction: column; } }
+    .main-projects-listA-item-link {
+      margin-left: 20px;
+      font-weight: 300; }
+  .main-projects-listB {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px; }
+@media(max-width: 863px) {
+  .main-projects-listB {
+    flex-direction: column; } }
+    .main-projects-listB-item-link {
+      margin-left: 20px;
+      font-weight: 300; }
+
+.main-graduation {
+  margin: 50px 0; }
+  .main-graduation-subTitle {
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0 0 40px 20px; }
+    .main-graduation-subTitle::before {
+      content: "• "; }
+  .main-graduation-list {
+    margin: 0 auto 40px 20px;
     width: 50%;
-    text-align: center;
+    height: 25px;
     border: 2px solid #F5E8C7;
-    padding: 10px 15px;
-    border-radius: 50px; }
-    .main-articles-list-item:hover {
-      background-color: #818FB4; }
-      .main-articles-list-item:hover-link {
-        color: #F7F7F7; }
-
-.main-projects-subTitle {
-  font-size: 2rem;
-  font-weight: 200;
-  margin: 0 0 40px 20px; }
-  .main-projects-subTitle::before {
-    content: "• "; }
-.main-projects-listTitle {
-  margin: 0 0 10px 40px;
-  font-size: 1.25rem;
-  font-weight: 200;
-  color: #F5E8C7; }
-  .main-projects-listTitle::before {
-    content: "✭ "; }
-.main-projects-listA {
-  margin-bottom: 20px; }
-  .main-projects-listA-item-link {
-    margin-left: 20px;
-    font-weight: 300; }
-.main-projects-listB {
-  margin-bottom: 20px; }
-  .main-projects-listB-item-link {
-    margin-left: 20px;
-    font-weight: 300; }
-
-.main-graduation-subTitle {
-  font-size: 2rem;
-  font-weight: 200;
-  margin: 0 0 40px 20px; }
-  .main-graduation-subTitle::before {
-    content: "• "; }
-.main-graduation-list {
-  margin: auto auto 40px 20px;
-  justify-content: center;
-  width: 50%;
-  height: 25px;
-  border: 2px solid #F5E8C7;
-  border-radius: 20px;
-  cursor: pointer; }
-  .main-graduation-list:hover {
-    background-color: #212121; }
-  .main-graduation-list-item {
-    height: 100%;
     border-radius: 20px;
-    background-color: #a5b8ee; }
-    .main-graduation-list-item:hover {
-      background-color: #F7F7F7; }
+    cursor: pointer; }
+    .main-graduation-list:hover {
+      background-color: #212121; }
+    .main-graduation-list-item {
+      height: 100%;
+      border-radius: 20px;
+      background-color: #a5b8ee; }
+      .main-graduation-list-item:hover {
+        background-color: #F7F7F7; }
 
-.main-contact-subTitle {
-  font-size: 2rem;
-  font-weight: 200;
-  margin: 0 0 40px 20px; }
-  .main-contact-subTitle::before {
-    content: "• "; }
-.main-contact-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; }
-  .main-contact-list-item {
-    flex-direction: column;
-    margin-bottom: 20px;
-    width: 50%;
-    text-align: center;
-    border: 2px solid #F5E8C7;
-    padding: 10px 15px;
-    border-radius: 50px; }
-    .main-contact-list-item:hover {
-      background-color: #818FB4; }
-      .main-contact-list-item:hover-link {
-        color: #F7F7F7; }
+.main-contact {
+  margin-top: 50px;
+  padding-bottom: 50px; }
+  .main-contact-subTitle {
+    font-family: "EB Garamond", serif;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0 0 40px 20px; }
+    .main-contact-subTitle::before {
+      content: "• "; }
+  .main-contact-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .main-contact-list-item {
+      flex-direction: column;
+      margin-bottom: 20px;
+      width: 50%;
+      text-align: center;
+      border: 2px solid #F5E8C7;
+      padding: 10px 15px;
+      border-radius: 50px; }
+      .main-contact-list-item:hover {
+        background-color: #818FB4; }
+        .main-contact-list-item:hover-link {
+          color: #F7F7F7; }
 
 .footer {
   padding: 20px 0;

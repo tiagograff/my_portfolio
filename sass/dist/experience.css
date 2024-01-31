@@ -1,17 +1,16 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap");
 .main-experience-subTitle {
+  font-family: "EB Garamond", serif;
   font-size: 2rem;
   font-weight: 200;
-  margin: 0 0 20px 20px;
+  margin: 0 0 40px 20px;
 }
 .main-experience-subTitle::before {
   content: "• ";
 }
 .main-experience-box1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 20px 20px 20px;
 }
 @media (max-width: 863px) {
@@ -28,10 +27,23 @@
     padding-bottom: 20px;
   }
 }
+.main-experience-box2 {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 863px) {
+  .main-experience-box2 {
+    align-items: flex-start;
+  }
+}
 .main-experience-box2-title {
+  font-family: "EB Garamond", serif;
   font-size: 2rem;
   font-weight: 200;
-  margin: 0 0 20px 20px;
+  margin: 0 0 40px 20px;
 }
 .main-experience-box2-title::before {
   content: "• ";

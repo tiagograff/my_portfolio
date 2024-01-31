@@ -3,6 +3,7 @@
 
 .main
     &-projects
+        height: 25vh
         &-subTitle
             @include subTitle
         &-listTitle
@@ -13,9 +14,17 @@
             &::before
                 content: "✭ "
         &-listA
+            display: flex
+            flex-wrap: wrap
+            @include screen863
+                flex-direction: column
             margin-bottom: 20px
             @include list-projects
 
         &-listB
+            display: flex
+            flex-wrap: wrap
+            @include screen863
+                flex-direction: column
             margin-bottom: 20px
             @include list-projects
