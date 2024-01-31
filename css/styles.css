@@ -185,61 +185,63 @@
       margin: 40px;
       text-align: center; }
 
-.main-experience-subTitle {
-  font-family: "EB Garamond", serif;
-  font-size: 2rem;
-  font-weight: 200;
-  margin: 0 0 40px 20px; }
-  .main-experience-subTitle::before {
-    content: "• "; }
-.main-experience-box1 {
-  margin: 0 20px 20px 20px; }
-@media(max-width: 863px) {
-  .main-experience-box1 {
-    display: flex;
-    flex-direction: column; } }
-  .main-experience-box1-paragraph {
-    padding-right: 20px; }
-@media(max-width: 863px) {
-  .main-experience-box1-paragraph {
-    padding-bottom: 20px; } }
-.main-experience-box2 {
-  margin: 50px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; }
-@media(max-width: 863px) {
-  .main-experience-box2 {
-    align-items: flex-start; } }
-  .main-experience-box2-title {
+.main-experience {
+  margin: 50px 0; }
+  .main-experience-subTitle {
     font-family: "EB Garamond", serif;
     font-size: 2rem;
     font-weight: 200;
     margin: 0 0 40px 20px; }
-    .main-experience-box2-title::before {
+    .main-experience-subTitle::before {
       content: "• "; }
-  .main-experience-box2-line1 {
-    margin-left: 20px;
+  .main-experience-box1 {
+    margin: 0 20px 20px 20px; }
+@media(max-width: 863px) {
+  .main-experience-box1 {
     display: flex;
-    flex-wrap: wrap; }
-    .main-experience-box2-line1-image {
-      margin: 0 0 20px 20px;
-      width: 50px; }
-  .main-experience-box2-line2 {
-    margin-left: 20px;
+    flex-direction: column; } }
+    .main-experience-box1-paragraph {
+      padding-right: 20px; }
+@media(max-width: 863px) {
+  .main-experience-box1-paragraph {
+    padding-bottom: 20px; } }
+  .main-experience-box2 {
     display: flex;
-    flex-wrap: wrap; }
-    .main-experience-box2-line2-image {
-      margin: 0 0 20px 20px;
-      width: 50px; }
-  .main-experience-box2-line3 {
-    margin-left: 20px;
-    display: flex;
-    flex-wrap: wrap; }
-    .main-experience-box2-line3-image {
-      margin: 0 0 20px 20px;
-      width: 50px; }
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+@media(max-width: 863px) {
+  .main-experience-box2 {
+    align-items: flex-start; } }
+    .main-experience-box2-title {
+      font-family: "EB Garamond", serif;
+      font-size: 2rem;
+      font-weight: 200;
+      margin: 0 0 40px 20px; }
+      .main-experience-box2-title::before {
+        content: "• "; }
+    .main-experience-box2-line1 {
+      margin-left: 20px;
+      display: flex;
+      flex-wrap: wrap; }
+      .main-experience-box2-line1-image {
+        margin: 0 0 20px 20px;
+        width: 50px; }
+    .main-experience-box2-line2 {
+      margin-left: 20px;
+      display: flex;
+      flex-wrap: wrap; }
+      .main-experience-box2-line2-image {
+        margin: 0 0 20px 20px;
+        width: 50px; }
+    .main-experience-box2-line3 {
+      margin-left: 20px;
+      display: flex;
+      flex-wrap: wrap; }
+      .main-experience-box2-line3-image {
+        margin: 0 0 20px 20px;
+        width: 50px; }
 
 .main-certificates-subTitle {
   font-family: "EB Garamond", serif;
@@ -306,7 +308,7 @@
           color: #F7F7F7; }
 
 .main-projects {
-  height: 25vh; }
+  margin: 50px 0; }
   .main-projects-subTitle {
     font-family: "EB Garamond", serif;
     font-size: 2rem;
