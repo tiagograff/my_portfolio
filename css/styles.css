@@ -274,26 +274,23 @@
   margin: 0 0 40px 20px; }
   .main-projects-subTitle::before {
     content: "• "; }
-.main-projects-listA-item {
-  margin: auto auto 40px 20px; }
-  .main-projects-listA-item-title {
-    font-size: 1.25rem;
-    font-weight: 200;
-    color: #F5E8C7; }
-    .main-projects-listA-item-title-link {
-      cursor: pointer; }
-    .main-projects-listA-item-title::before {
-      content: "✭ "; }
-.main-projects-listB-item {
-  margin: auto auto 40px 20px; }
-  .main-projects-listB-item-title {
-    font-size: 1.25rem;
-    font-weight: 200;
-    color: #F5E8C7; }
-    .main-projects-listB-item-title-link {
-      cursor: pointer; }
-    .main-projects-listB-item-title::before {
-      content: "✭ "; }
+.main-projects-listTitle {
+  margin: 0 0 10px 40px;
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: #F5E8C7; }
+  .main-projects-listTitle::before {
+    content: "✭ "; }
+.main-projects-listA {
+  margin-bottom: 20px; }
+  .main-projects-listA-item-link {
+    margin-left: 20px;
+    font-weight: 300; }
+.main-projects-listB {
+  margin-bottom: 20px; }
+  .main-projects-listB-item-link {
+    margin-left: 20px;
+    font-weight: 300; }
 
 .main-graduation-subTitle {
   font-size: 2rem;
@@ -343,13 +340,19 @@
         color: #F7F7F7; }
 
 .footer {
-  padding: 20px;
+  padding: 20px 0;
   background: #212121;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   font-size: 0.95rem; }
+@media(max-width: 863px) {
+  .footer {
+    flex-direction: column;
+    padding: 20px 10px; } }
+  .footer-text {
+    margin: 10px auto; }
 
 * {
   margin: 0;

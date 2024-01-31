@@ -8,9 +8,26 @@
 .main-projects-subTitle::before {
   content: "• ";
 }
-.main-projects-listA-item-title {
+.main-projects-listTitle {
+  margin: 0 0 10px 40px;
+  font-size: 1.25rem;
   font-weight: 200;
+  color: #F5E8C7;
 }
-.main-projects-listB-item-title {
-  font-weight: 200;
+.main-projects-listTitle::before {
+  content: "✭ ";
+}
+.main-projects-listA {
+  margin-bottom: 20px;
+}
+.main-projects-listA-item-link {
+  margin-left: 20px;
+  font-weight: 300;
+}
+.main-projects-listB {
+  margin-bottom: 20px;
+}
+.main-projects-listB-item-link {
+  margin-left: 20px;
+  font-weight: 300;
 }

@@ -5,7 +5,17 @@
     &-projects
         &-subTitle
             @include subTitle
+        &-listTitle
+            margin: 0 0 10px 40px
+            font-size: 1.25rem
+            font-weight: 200
+            color: $quaternary-color
+            &::before
+                content: "✭ "
         &-listA
+            margin-bottom: 20px
             @include list-projects
+
         &-listB
+            margin-bottom: 20px
             @include list-projects
