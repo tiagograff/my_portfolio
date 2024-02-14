@@ -76,6 +76,11 @@ var certificateData = [{
   curso: "CSS3",
   imagem: "../img/certificates.svg",
   linkCertificate: "../img/css3 obc.pdf"
+}, {
+  escola: "alura",
+  curso: "imersão front-end 2024",
+  imagem: "../img/certificates.svg",
+  linkCertificate: "https://cursos.alura.com.br/immersion/certificate/user/883922"
 }]; // função que gera cards automáticamente
 
 function generateCards(data) {
