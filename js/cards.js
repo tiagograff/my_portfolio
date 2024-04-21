@@ -100,11 +100,18 @@ const certificateData = [
     linkCertificate: "../img/css3 obc.pdf",
   },
   {
+    escola: "onebitcode",
+    curso: "javascript",
+    imagem: "../img/certificates.svg",
+    linkCertificate: "../img/JavaScript obc.pdf",
+  },
+  {
     escola: "alura",
     curso: "imersão front-end 2024",
     imagem: "../img/certificates.svg",
-    linkCertificate: "https://cursos.alura.com.br/immersion/certificate/user/883922",
-  }
+    linkCertificate:
+      "https://cursos.alura.com.br/immersion/certificate/user/883922",
+  },
 ];
 
 // função que gera cards automáticamente
@@ -130,11 +137,13 @@ function generateCards(data) {
     infos.className = "main-certificates-cards-card-link-infos";
     // para cada item crie um elemento p com o class name...
     const paragraph1 = document.createElement("p");
-    paragraph1.className = "main-certificates-cards-card-link-infos-paragraphSchool";
+    paragraph1.className =
+      "main-certificates-cards-card-link-infos-paragraphSchool";
     paragraph1.textContent = item.escola;
 
     const paragraph2 = document.createElement("p");
-    paragraph2.className = "main-certificates-cards-card-link-infos-paragraphCourse";
+    paragraph2.className =
+      "main-certificates-cards-card-link-infos-paragraphCourse";
     paragraph2.textContent = item.curso;
     // adcionar infos ao paragraph
     infos.appendChild(paragraph1);
